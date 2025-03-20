@@ -55,6 +55,8 @@ VSCode offers you:
 - Accept 
 current change - this is the change on the HEAD (master)
 - Accept incoming change - this is the change from your branch
+- Accept both changes (sepereate lines)
+- Accept neither set of changes
 
 ### Differences
 `git diff` enables you to check for unadded and uncommitted changes (by default). It shows the differences between the current state of a file and the state of the file at the last commit.
