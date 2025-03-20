@@ -39,11 +39,13 @@ If no conflicts, this creates an automatic commit to update the target branch of
 ## Conflicts
 If line x in a file has different changes in each branch. What you see is this:
 
+```
 <<<<<<< HEAD
 ...some content from the file
 =======
 ...different content from the other branch
 >>>>>>> new branch
+```
 
 - The HEAD (usually master branch) comes first. **This is the branch you have switched to.**
 - ======== is the divider
